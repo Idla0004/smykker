@@ -2,6 +2,10 @@ main {
   background-color: #fdfaf5;
 }
 
+body {
+  background-color: #fdfaf5;
+}
+
 header {
   background-color: #f2f2f0;
   border-bottom: solid;
@@ -17,8 +21,7 @@ header {
 @media only screen and (max-width: 400px) {
   .logo img {
     max-width: 50px;
-    display: flex;
-    flex-direction: column;
+    margin-right: 10px;
   }
 }
 
@@ -166,16 +169,16 @@ footer {
   margin-top: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
   .tools1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     margin: auto;
-    padding: 2%;
+    padding: 1%;
     margin-top: 10px;
     margin-bottom: 10px;
-    max-width: 320px;
+    max-width: 275px;
   }
 }
 
@@ -191,7 +194,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
   .box1 img {
     max-width: 200px;
     max-height: 200px;
@@ -228,7 +231,7 @@ footer {
   margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
   .tools {
     max-width: 200px;
     font-size: 25px;
@@ -242,7 +245,7 @@ footer {
   margin-bottom: 10%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
   .tools2 {
     font-size: 20px;
   }

@@ -1,4 +1,4 @@
-@media (width >= 800px) {
+@media (width >= 200px) {
   main {
     display: grid;
     gap: 1em;
@@ -35,6 +35,7 @@ ul {
   .head ul {
     font-size: 22px;
     justify-content: end;
+    padding: 0.5em;
   }
 }
 
@@ -283,12 +284,12 @@ img {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 400px) {
   .centered a {
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
-    font-size: 16px;
+    font-size: 14px;
     padding: 5px 2px;
     top: 80%;
     left: 50%;
@@ -376,7 +377,7 @@ h3 {
   color: #dacfb4;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 400px) {
   .modal-content {
     font-size: 15px;
     color: #403b35;
