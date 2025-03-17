@@ -169,7 +169,7 @@ footer {
   margin-top: 10px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .tools1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -178,11 +178,11 @@ footer {
     padding: 1%;
     margin-top: 10px;
     margin-bottom: 10px;
-    max-width: 275px;
+    width: 320px;
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .box1 {
     display: flex;
     flex-direction: column;
@@ -231,7 +231,7 @@ footer {
   margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .tools {
     max-width: 200px;
     font-size: 25px;
@@ -245,8 +245,8 @@ footer {
   margin-bottom: 10%;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .tools2 {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
