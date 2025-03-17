@@ -31,6 +31,25 @@ ul {
   list-style-type: none;
 }
 
+@media only screen and (max-width: 400px) {
+  .head ul {
+    font-size: 22px;
+    justify-content: end;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .head h2 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .head h3 {
+    font-size: 14px;
+  }
+}
+
 a {
   text-decoration: none;
 }
@@ -200,12 +219,30 @@ img {
   width: 300px;
 }
 
+@media only screen and (max-width: 400px) {
+  .btn2 {
+    border-radius: 1em;
+    padding: 5px 1em;
+    margin: auto;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 200px;
+  }
+}
+
 .h1-2 {
   font-family: abril;
   font-size: 40px;
   color: #403b35;
   font-size: 30px;
   text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+  .h1-2 {
+    font-size: 25px;
+  }
 }
 
 .tutimg {
@@ -339,15 +376,36 @@ h3 {
   color: #dacfb4;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
   .modal-content {
+    font-size: 15px;
     color: #403b35;
     background-color: #fdfaf5;
     margin: auto;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid #595540;
     border-radius: 5px;
-    width: 350px;
+    height: auto;
+    width: 300px;
+    overflow: auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .modal-content img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .myBtn_multi {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #myBtn {
+    font-size: 15px;
   }
 }
 
