@@ -177,10 +177,9 @@ img {
   border: solid;
   border-color: #403b35;
   margin: auto;
-  margin-bottom: 20px;
   padding: 15px;
   min-width: none;
-  max-width: 800px;
+  max-width: 1000px;
   border: solid;
   border-radius: 8px;
 }
@@ -188,6 +187,7 @@ img {
 @media only screen and (max-width: 600px) {
   .tutorial-container {
     font-size: 15px;
+    padding: 5px;
   }
 }
 
@@ -234,37 +234,44 @@ img {
 
 .h1-2 {
   font-family: abril;
-  font-size: 40px;
+  font-size: 25px;
   color: #403b35;
-  font-size: 30px;
   text-align: center;
 }
 
 @media only screen and (max-width: 400px) {
   .h1-2 {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 
 .tutimg {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 1em;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+@media only screen and (max-width: 500px) {
+  .tutimg {
+    gap: 1em;
+    padding-top: 10px;
+  }
 }
 
 .container {
-  position: relative;
-  text-align: center;
-  color: white;
-  padding: 10px;
+  position: sticky;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: auto;
 }
 
 .centered a {
   position: absolute;
   display: block;
   top: 85%;
-  left: 42%;
+  left: 50%;
   transform: translate(-50%, -50%);
   color: #fdfaf5;
   font-family: lato;
@@ -284,12 +291,12 @@ img {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .centered a {
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
-    font-size: 14px;
+    font-size: 15px;
     padding: 5px 2px;
     top: 80%;
     left: 50%;
