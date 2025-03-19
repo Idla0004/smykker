@@ -147,14 +147,14 @@ img {
   margin: auto;
 }
 
-.frontimg img {
-  max-width: 50%;
-  height: auto;
-  border-radius: 10px;
+.frontimage {
+  max-width: 600px;
+  max-height: fit-content;
+  margin: auto;
 }
 
-@media only screen and (max-width: 400px) {
-  .frontimg img {
+@media only screen and (max-width: 500px) {
+  .frontimage {
     max-width: 300px;
   }
 }
